@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url("../Imagenes/fondoNegro.jpg") ;
+}
+
+
+.title {
+    margin: 10px;
+    font-family: Manjari;
+    border-bottom: 3.2px solid black;
+    width: 50%;
+}
+
+.subtitle {
+    margin: 10px;
+    font-family: Manjari;
+    border-bottom: 2.5px solid black;
+    width: 90%;
+}
+
+.text_comun {
+    font-family: Manjari;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.controls {
+    width: 80%;
+    border-radius: 25px;
+    border-color: transparent;
+    background-color:rgba(227, 218, 201, 41%);
+}
+
+.controls_nro {
+    width: 55%;
+    border-radius: 25px;
+    border-color: transparent;
+    background-color:rgba(227, 218, 201, 41%);
+}
+
+.content_center {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn_Enviar{
+    font-family: Manjari;
+    width: 155px;
+    padding: 15px;
+    border-width:5px;
+    border-radius: 50px;
+    border-color: transparent;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(255,204,41,1) 0%, rgba(177,243,167,1) 100%);
+}
+
+#btn_Enviar:hover{
+    font-family: Manjari;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: regular;
+    background-color: salmon;
+}
+

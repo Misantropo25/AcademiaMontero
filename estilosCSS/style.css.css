@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+
+body {
+    background-image:url("/images/fondo\ negro.jpg");
+}
+
+.content_flex {
+    display: flex;
+    
+}
+
+#content_logo {
+    
+    margin-left: 500px;
+}
+
+#content_volver{
+    
+    margin-left: 100px;
+}
+
+.btn_icon {
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 60px; 
+    height: 60px;
+    border-color: transparent;
+}

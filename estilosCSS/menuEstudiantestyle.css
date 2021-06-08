@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+}
+
+#container-head {
+    width: auto;
+    margin: auto;
+    flex: auto;
+}
+
+.content_flex {
+    display: flex;
+}
+
+#content_logo {
+    
+    margin-left: auto;
+}
+
+#content_volver{
+    
+    margin-left: 100px;
+}
+
+.btn_icon {
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: auto; 
+    height: auto;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(../Imagenes/fondoNegro.jpg) ;
+}
+
+.content_flex {
+    display: flex;
+    width: 100%;
+    
+    
+}
+
+.btn_icon {
+    background-color: transparent;
+    margin-top: 30px;
+    width: 60px; 
+    height: 60px;
+    border-color: transparent;
+}
+
+.content_flex_menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn_menu {
+    background-color: transparent;
+    margin: 0 50px;
+    
+    border-color: transparent;
+    cursor: pointer;
+}

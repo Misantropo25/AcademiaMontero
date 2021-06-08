@@ -1,0 +1,112 @@
+.fondo_comun{
+    width: 50%;
+    height: auto;
+    background-color: rgba(217, 217, 217, 41%); 
+    margin: auto;
+    margin-top: 55px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+body{
+    background-image: url(./images/fondo\ negro.jpg);
+}
+
+label{
+    font-family: Manjari;
+}
+
+#btnRealizarCambios{
+    background: linear-gradient(0deg, rgba(255,204,41,1) 15%, rgba(177,243,167,1) 100%);
+    margin-top: 30px;
+    margin-left: 15px;
+    width: auto; 
+    height: auto;
+    border: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+*{
+    margin: 0px;
+}
+#container-head {
+    width: auto;
+    margin: auto;
+    flex: auto;
+}
+
+.content_flex {
+    display: flex;
+}
+
+#content_logo {
+    
+    margin-left: auto;
+}
+
+#content_volver{
+    
+    margin-left: 100px;
+}
+
+.btn_icon {
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: auto; 
+    height: auto;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(images/fondo\ negro.jpg) ;
+}
+
+.content_flex {
+    display: flex;
+    width: 100%;
+    
+    
+}
+
+
+.btn_icon {
+    background-color: transparent;
+    margin-top: 30px;
+    
+    width: 60px; 
+    height: 60px;
+    border-color: transparent;
+}
+
+.content_flex_menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn_menu {
+    background-color: transparent;
+    margin: 0 50px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.txts{
+    border-radius: 5px;
+    border: transparent;
+    padding: 7px;
+    width: 50%;
+}
+.txts:focus {
+    border: rgb(150, 119, 150);
+}
+
+#titulo{
+    font-family: Manjari;
+    font-size: 40px;
+}
+

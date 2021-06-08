@@ -1,0 +1,152 @@
+/* Recuersos: Font: Rimouski --> https://www.dafont.com/es/rimouski.font*/
+@font-face {
+    font-family:rimouski;
+    src: url(fuentes/rimouskisb.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fondo_comun{
+    width: 400px;
+    height: 500px;
+    background-image: url(../Imagenes/fondo2.png); 
+    opacity: 0.6;
+    margin: auto;
+    margin-top: 55px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;      
+}
+
+body {
+    background-image: url(../Imagenes/fondoNegro.jpg) ;
+    
+
+}
+
+.inputLogin {
+    padding: 9px;
+    background-color:transparent;
+    font-family: Manjari;
+    color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-color: #B7A624;
+    
+    
+}
+::placeholder{
+    text-align: center;
+    color: #70772D;
+}
+
+.typeUser {
+    font-family: Manjari;
+    padding: 7px;
+    background-color:#B7A624;
+    color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-color: black;
+}
+
+.contentCenter {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_comun{
+    text-align: center;
+    font-family: Manjari;
+}
+
+
+
+
+.txts{
+    padding: 9px;
+    background-color:#fffbdf;
+    border-color:transparent;
+    border-radius: 50px;
+}
+
+#titulo{
+    font-size: large;
+    font-family: rimouski;
+}
+
+#btnLogin{
+    width: 155px;
+    padding: 15px;
+    border-width:5px;
+    border-radius: 50px;
+    border-color: transparent;
+    font-weight: bold;
+    background-color: linear-gradient();
+}
+
+#btnLogin:hover{
+    
+    border-radius: 50px;
+    border-width:3px;
+    font-weight: regular;
+    background-color: salmon;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  #container-head {
+    width: auto;
+    margin: auto;
+}
+
+.content_flex {
+    display: flex;
+}
+
+#content_logo {
+    
+    margin-left: auto;
+}
+
+#content_volver{
+    
+    margin-left: 100px;
+}
+
+.btn_icon {
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: auto; 
+    height: auto;
+    border-color: transparent;
+}

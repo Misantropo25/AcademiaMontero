@@ -1,0 +1,36 @@
+
+.table{
+   position:absolute;
+   transform: (-50,-50%);
+   border-collapse: collapse;
+   width: 800xp;
+   height: 200px;
+   border: 1px solid;
+}
+
+.table tr{
+   transition: all .2s ease-in;
+   cursor:pointer; 
+}
+
+.table td:hover{
+    background-color: white;
+    transform: scale(1.02);
+}
+
+.table td,.table th{
+    padding:12px 15px;
+    border:1px solid black; 
+    text-align: center;
+    font-size:16px;
+}
+.table th{
+    background-color:#e7d3af;
+    color:black;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: white;
+}
+
+

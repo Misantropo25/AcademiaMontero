@@ -1,0 +1,217 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manjari;
+}
+
+body{
+    background: url(../Imagenes/fondoNegro.jpg);
+}
+/*
+body, .modal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+h1 {
+    color: black;
+    
+}
+
+
+
+h3 {
+    color: aliceblue;
+}
+
+h4 {
+    color: azure;
+
+}
+
+section#section1 {
+
+    height: auto;
+    position: center;
+}
+
+#centro{
+    width: 90%;
+    margin: 10px auto;
+    float: left;
+}
+
+#centro1{
+    width: 80%;
+    margin: 10px auto;
+    float: left;
+}
+#columna{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+#columnap{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#columna1{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+.caja1{
+    float: left;
+}
+.caja2{
+    float:left
+}
+
+
+.fondo_comun{
+    max-width: auto;
+    width: 60%;
+    background-color: rgba(217, 217, 217, 41%); 
+    margin: auto;
+    margin-top: 55px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto; 
+    overflow: hidden; 
+}
+
+.boton {
+    float: right;
+    padding: 50px;
+}
+a{
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    margin: 5px;
+  }
+
+
+select{
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    margin: 5px;
+  }
+
+/* WSPP CODE */
+#container-head {
+    width: auto;
+    margin: auto;
+}
+
+.content_flex {
+    display: flex;
+}
+
+#content_logo {
+    
+    margin-left: auto;
+}
+
+#content_volver{
+    
+    margin-left: 100px;
+}
+
+.btn_icon {
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: auto; 
+    height: auto;
+    border-color: transparent;
+}
+
+a{
+    background: transparent;
+}
+
+/* WPP CODE END */
+
+/* Model 
+*/
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.boton #btn_modal:checked ~ .modal{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background: #d9d9d9;
+    box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+    transition: all 500ms ease;
+    position: relative;
+    transform: translateY(-30%);
+}
+
+.contenedor header{
+    padding: 10px;
+    background: #d9d9d9;
+    color: rgb(228, 113, 5);
+}
+
+.contenedor label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(228, 113, 5);
+    cursor: pointer;
+}
+
+.lbl_modal {
+    background: rgb(228, 113, 5);
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.conteiner_buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.conteiner_buttons button{
+    margin: 10px;
+    background: transparent;
+    border: transparent;
+}

@@ -1,0 +1,136 @@
+body {
+    background-image:url("../Imagenes/fondoNegro.jpg");
+}
+
+h1 {
+    color: black;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+h4 {
+    color: azure;
+
+}
+
+section#section1 {
+
+    height: auto;
+    position: center;
+}
+
+#centro{
+    width: 90%;
+    margin: 10px auto;
+    float: left;
+}
+
+#centro1{
+    width: 80%;
+    margin: 10px auto;
+    float: left;
+}
+#columna{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    
+    
+}
+#columnap{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+hr{
+    color:black;
+}
+
+
+#columna1{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.caja1{
+    float: left;
+}
+.caja2{
+    float:left
+}
+
+
+.fondo_comun{
+    max-width: auto;
+    width: 60%;
+    background-color: rgba(217, 217, 217, 41%); 
+    margin: auto;
+    margin-top: 55px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto; 
+    overflow: hidden; 
+}
+
+.boton {
+    float: right;
+    padding: 50px;
+}
+a{
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    margin: 5px;
+  }
+
+
+select{
+    border-radius: 5px;
+    padding: 10px 7px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    margin: 5px;
+  }
+
+/* WSPP CODE */
+#container-head {
+    width: auto;
+    margin: auto;
+}
+
+.content_flex {
+    display: flex;
+}
+
+#content_logo {
+    
+    margin-left: auto;
+}
+
+#content_volver{
+    
+    margin-left: 100px;
+}
+
+.btn_icon {
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: auto; 
+    height: auto;
+    border-color: transparent;
+}
+
+/* WPP CODE END */
