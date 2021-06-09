@@ -18,6 +18,7 @@
                     <div id="content_volver">
                         <a href="/index.html"><button class="btn_icon"><img class="icon" src="../Imagenes/Volver.png" alt="" width="54" height="52"></button></a>
                     </div>
+                    
                 </div>
             </nav>
         </header>

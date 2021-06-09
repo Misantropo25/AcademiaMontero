@@ -28,16 +28,12 @@
             </nav>
         </header>
     </div>
-    <div>
+    <div >
         <div class="content_flex_menu">
-            <a href="#"><button class="btn_Menu Docente"><img class="Menu Docente_img" src="Icons/Recurso 11@0.75x-8.png" alt="" width="199" height="144"></button></a>
-            <h2>Registro Academico</h2>
-
-            <a href="#"><button class="btn_Menu Docente"><img class="Menu Docente_img" src="Icons/User.png" alt=""width="199" height="202"></button></a>
-            <h2>Usuario</h2>
-            
             <a href="inscripcion.php"><button class="btn_menu"><img class="menu_img" src="../Imagenes/Inscripcion.png" alt="" width="199" height="144"></button></a>
+            
             <a href="submenu_alumno.php"><button class="btn_menu"><img class="menu_img" src="../Imagenes/Registro.png" alt="" width="156" height="202"></button></a>
+            
             <a href="#"><button class="btn_menu"><img class="menu_img" src="../Imagenes/User.png" alt="" width="199" height="202"></button></a>
 
 

@@ -1,13 +1,10 @@
 <?php
 
-session_start();
-
-
 $conn = mysqli_connect(
     'localhost',
     'root',
     '',
-    'db_phpCrud'
+    'base_academia_montero'
 );
 
 ?>
