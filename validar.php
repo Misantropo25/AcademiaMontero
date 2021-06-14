@@ -83,15 +83,5 @@ switch ($tipo) {
 
 
 
-//Validacion opcion Docente
-
-
-
-
-
-
-
-//Validacion Opcion Administrador
-
 
     ?>
